@@ -65,8 +65,9 @@ html {
 
 body {
   background: #fff;
-  font: 18px/1.4 Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
+  text-align: center;
 }
 
 .container {
@@ -76,16 +77,30 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1 {
   color: #222;
   font-weight: bold;
+  text-align: center;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
 }
 @media screen and (max-width: 640px) {
-  h1, h2, h3, h4, h5, h6 {
+  h1 {
+    line-height: 1.4;
+  }
+}
+
+h2, h3, h4, h5, h6 {
+  color: #222;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+}
+@media screen and (max-width: 640px) {
+  h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
 }
@@ -112,6 +127,14 @@ h4 {
 
 p {
   margin: 15px 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+time {
+  font-weight: 600;
+  font-size: 18px;
 }
 
 a {
@@ -220,7 +243,8 @@ img {
 }
 
 .site-info {
-  float: left;
+  float: none;
+  margin: 0 auto;
 }
 @media screen and (max-width: 640px) {
   .site-info {
@@ -234,7 +258,6 @@ img {
   margin: 0;
   color: #333;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -254,7 +277,6 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
 @media screen and (max-width: 640px) {
@@ -280,8 +302,7 @@ nav a {
 }
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid #eee;
+  padding-bottom: 3em;
 }
 
 .posts > .post:last-child {
