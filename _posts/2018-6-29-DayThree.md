@@ -2,7 +2,7 @@
 layout: post
 ---
 
-## Afternoon update
+## Today's update
 
 The intubation tube has finally been removed and Gary is now breathing on his own.
 
@@ -13,4 +13,3 @@ He's resting not so comfortably and is a little agitated by not being allowed to
 Gary was able to get a couple of words in though after the doctor denied his request for some ice. The doctor told Gary "nope, can't have that right now sorry" and he responded with "oh fuck."
 
 Gary is back.
-

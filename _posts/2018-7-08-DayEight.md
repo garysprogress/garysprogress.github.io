@@ -2,7 +2,7 @@
 layout: post
 ---
 
-## Afternoon update
+## Today's update
 
 Pretty soon Gary could be the one writing these updates. He is getting better at using the phone and iPad every day, and is reading much faster.
 

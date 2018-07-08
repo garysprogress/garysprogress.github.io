@@ -2,7 +2,7 @@
 layout: post
 ---
 
-## Evening update
+## Today's update
 
 What a day! Gary has finally been moved out of the ICU.
 
